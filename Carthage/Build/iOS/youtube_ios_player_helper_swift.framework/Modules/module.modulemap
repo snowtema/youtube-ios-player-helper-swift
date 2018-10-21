@@ -1,0 +1,11 @@
+framework module youtube_ios_player_helper_swift {
+  umbrella header "youtube_ios_player_helper_swift.h"
+
+  export *
+  module * { export * }
+}
+
+module youtube_ios_player_helper_swift.Swift {
+    header "youtube_ios_player_helper_swift-Swift.h"
+    requires objc
+}

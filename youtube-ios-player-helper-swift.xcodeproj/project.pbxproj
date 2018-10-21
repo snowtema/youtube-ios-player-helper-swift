@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		49CC813B217CCC0A003CDBCD /* youtube_ios_player_helper_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CC8139217CCC0A003CDBCD /* youtube_ios_player_helper_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49CC8146217CCC26003CDBCD /* YTPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CC8142217CCC26003CDBCD /* YTPlayerView.swift */; };
+		49CC8147217CCC26003CDBCD /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 49CC8144217CCC26003CDBCD /* YTPlayerView-iframe-player.html */; };
+		49CC8148217CCC26003CDBCD /* YTPlayerView-iframe-playerIPAD.html in Resources */ = {isa = PBXBuildFile; fileRef = 49CC8145217CCC26003CDBCD /* YTPlayerView-iframe-playerIPAD.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49CC8136217CCC0A003CDBCD /* youtube_ios_player_helper_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = youtube_ios_player_helper_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CC8139217CCC0A003CDBCD /* youtube_ios_player_helper_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = youtube_ios_player_helper_swift.h; sourceTree = "<group>"; };
 		49CC813A217CCC0A003CDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CC8142217CCC26003CDBCD /* YTPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerView.swift; sourceTree = "<group>"; };
+		49CC8144217CCC26003CDBCD /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		49CC8145217CCC26003CDBCD /* YTPlayerView-iframe-playerIPAD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-playerIPAD.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +52,29 @@
 		49CC8138217CCC0A003CDBCD /* youtube-ios-player-helper-swift */ = {
 			isa = PBXGroup;
 			children = (
+				49CC8143217CCC26003CDBCD /* Assets */,
+				49CC8141217CCC26003CDBCD /* Classes */,
 				49CC8139217CCC0A003CDBCD /* youtube_ios_player_helper_swift.h */,
 				49CC813A217CCC0A003CDBCD /* Info.plist */,
 			);
 			path = "youtube-ios-player-helper-swift";
+			sourceTree = "<group>";
+		};
+		49CC8141217CCC26003CDBCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49CC8142217CCC26003CDBCD /* YTPlayerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		49CC8143217CCC26003CDBCD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				49CC8144217CCC26003CDBCD /* YTPlayerView-iframe-player.html */,
+				49CC8145217CCC26003CDBCD /* YTPlayerView-iframe-playerIPAD.html */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CC8148217CCC26003CDBCD /* YTPlayerView-iframe-playerIPAD.html in Resources */,
+				49CC8147217CCC26003CDBCD /* YTPlayerView-iframe-player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CC8146217CCC26003CDBCD /* YTPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
